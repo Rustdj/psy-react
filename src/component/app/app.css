@@ -1,0 +1,37 @@
+
+
+
+.about-title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 654px 455px;
+    column-gap: 122px;
+    padding-top: 60px;
+    margin-left: 42;
+}
+
+.about-item {
+    padding: 35px;
+    background-color: #cacaca;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px;
+    margin-left: 164px;
+}
+
+.about-descr {
+    display: grid;
+    grid-template-columns: 882px;
+    justify-content: center;
+    background-color: #cacaca;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px;
+    margin-top: 88px;
+    padding-top: 28px;
+    height: 250px;
+    width: 933px;
+    margin-left: 15%;
+}

@@ -1,0 +1,20 @@
+* {
+    font-family: Roboto sans-serif;
+}
+
+.header-title .divider {
+    border: solid 1px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.sub-title {
+    margin-top: 10px;
+}
