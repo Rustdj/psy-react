@@ -39,13 +39,12 @@
     margin-bottom: 20px;
 }
 
-.icons i {
-    margin-left: 30px;
+.icons a {
     color: azure;
-    font-size: 30px;  
+    
 }
 
-.icons i:hover {
+.icons a:hover {
     color: orangered;
     transition: 0.6s;
 }
