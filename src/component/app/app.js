@@ -9,12 +9,19 @@ import Education from '../education/education';
 
 
 import './app.css';
+import Modal from '../modal/modal';
+import { useState } from 'react';
 
 
 
 
 
 function App() {
+
+  const [modal, setModal] = useState({
+    modal: false
+  })
+
     return (
       <div className="App">
           <Header/>
@@ -23,7 +30,21 @@ function App() {
           <AboutMe/>
           <Education/>
           <Contact/>
-      </div>
+          <Modal
+            title={'Modal Title'}
+            isOpened={modal.modal}
+            onModalClose ={() => setModal({...modal,modal: false})}
+          >
+          </Modal>
+
+          <button onClick={() => setModal({
+              ...modal, modal: true
+              })} >
+                Отправить сообщение
+          </button>
+
+              
+          </div>
     );
   }
   

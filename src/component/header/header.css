@@ -44,6 +44,7 @@
 .menu button:hover {
     background-color: red;
     transition: 0.7s;
+    color: #fff;
 }
 
 
